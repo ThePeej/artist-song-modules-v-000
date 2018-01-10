@@ -6,6 +6,8 @@ class Song
 
   @@songs = []
 
+  extend Module
+
   def initialize
     @@songs << self
   end
