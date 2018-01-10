@@ -11,10 +11,6 @@ class Song
   include Memorable::InstanceMethods
   include Paramable
 
-  def initialize
-    @@songs << self
-  end
-
   def artist=(artist)
     @artist = artist
   end
