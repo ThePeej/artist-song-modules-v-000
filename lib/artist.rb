@@ -6,7 +6,7 @@ class Artist
 
   @@artists = []
 
-  extend Module
+  extend Memorable
 
   def self.find_by_name(name)
     @@artists.detect{|a| a.name == name}
